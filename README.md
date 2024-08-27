@@ -17,6 +17,8 @@ Com este projeto foi possível ter uma melhor compreensão do **uso e manipulaç
 ## Código fonte do projeto
 ![image](https://github.com/user-attachments/assets/dcfac0b9-0616-4e4b-a082-1ecbdbde4590)
 
+- Na raiz do projeto, abra o terminal e instale **pip install openpyxl** e **pip install docxtpl**
+
 > [!NOTE]
 > **INFORMAÇÕES IMPORTANTE PARA O SUCESSO DO PROJETO**
 
@@ -31,3 +33,8 @@ Com este projeto foi possível ter uma melhor compreensão do **uso e manipulaç
 > **ATENÇÃO**
 
 O caminho do path precista está com duas barras invertidas, caso venha uma muito provavelmente irá ocorrer um erro;
+
+### Uso da iteração for em uma tupla
+![image](https://github.com/user-attachments/assets/a5df873d-7451-44e5-89be-f5b55434066e)
+
+### Eu comecei a "varredura" a partir do segundo índice que é o [1] e não do primeiro[0], lembrando que em Python, o índice começa em zero. Porquê ao executar o arquivo excel, ele irá gerar uma tupla o qual o índice 0 são os cabeçalhos/colunas o que não tem nenhum dado específico lá.
