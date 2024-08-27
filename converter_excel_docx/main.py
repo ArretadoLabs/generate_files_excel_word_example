@@ -3,7 +3,7 @@ from docxtpl import DocxTemplate
 import datetime
 
 #Carregar os dados do arquivo excel na sua localização
-path = "C:\\Users\\fgsjd\\OneDrive\\Área de Trabalho\\Developer Career\\converter_excel_docx\\student_data.xlsx" # Caminho até o arquivo excel.
+path = "[COLE O CAMINHO, O "PATH" DO ARQUIVO STUDENT_DATA.XLSX aqui]" # Caminho até o arquivo excel.
 workbook = openpyxl.load_workbook(path)
 sheet = workbook.active
 
@@ -26,8 +26,3 @@ for value_tuple in list_values[1:]:
     #Aqui ele irá gerar o arquivo contendo o formato em .docx (o famoso word)
     doc_name_final = "certificado" + value_tuple[0] + value_tuple[1] + ".docx"
     doc.save(doc_name_final) #E aqui ele salva o arquivo
-    
-
-    
-    
-    
