@@ -32,7 +32,7 @@ Com este projeto foi possível ter uma melhor compreensão do **uso e manipulaç
 > [!WARNING]
 > **ATENÇÃO**
 
-O caminho do path precista está com duas barras invertidas, caso venha uma muito provavelmente irá ocorrer um erro;
+O caminho do path precista está com duas barras invertidas, caso venha com uma barra, muito provavelmente irá ocorrer um erro;
 
 ### Uso da iteração for em uma tupla
 ![image](https://github.com/user-attachments/assets/a5df873d-7451-44e5-89be-f5b55434066e)
